@@ -8,15 +8,7 @@ int randint(int x) {
 }
 int pcansw() {
 	int answ = randint(3);
-	if (answ == 1) {
-		return 1;
-	}
-	else if (answ == 2) {
-		return 2;
-	}
-	else {
-		return 3;
-	}
+	return answ;
 }
 
 int main() {
